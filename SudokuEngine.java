@@ -2,7 +2,7 @@ import java.util.*;
 
 public class SudokuEngine {
    public static void main(String[] args) {
-      SudokuBoard board = new SudokuBoard("Sudoku Seeds/data1.sdk");
+      SudokuBoard board = new SudokuBoard("data1.sdk");
       System.out.print(board);
    }
 }
